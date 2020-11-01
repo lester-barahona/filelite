@@ -1,0 +1,16 @@
+public class Prueba{
+
+  public static void main(String [] args){
+  
+    FileLite archivos=new FileLite("./archivos/archivo.txt");
+    String [] line=new String []{"McQueen","11","M"};
+    archivos.writeArrayLine(new String []{"McQueen","11","M"},true);
+    System.out.println(archivos.readFile());
+    
+
+
+    
+  }
+  
+  
+}

@@ -1,0 +1,12 @@
+public class UseExample{
+
+  private FileLite fl;
+
+  public UseExample(){
+    fl=new FileLite();
+  }
+
+
+
+
+}
